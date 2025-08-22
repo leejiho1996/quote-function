@@ -3,7 +3,7 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: leejiho1996/catalog-service
+  IMAGE_NAME: leejiho1996/quote-function
   VERSION: ${{github.sha}} # git commit hash와 동일한 버전으로 릴리스 후보 등록
 
 #    env:
